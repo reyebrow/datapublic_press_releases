@@ -3,6 +3,7 @@ description = "Provides content types, views, contexts, libraries and logic for 
 core = "7.x"
 package = "Data Public"
 php = "5.2.4"
+version = "7.x-1.0"
 dependencies[] = "context"
 dependencies[] = "custom_breadcrumbs"
 dependencies[] = "features"
