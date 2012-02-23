@@ -1,7 +1,7 @@
 name = "Datapublic Press Releases"
 description = "Provides content types, views, contexts, libraries and logic for press releases."
 core = "7.x"
-package = "Data Public"
+package = "Datapublic"
 php = "5.2.4"
 version = "7.x-1.0"
 dependencies[] = "context"
