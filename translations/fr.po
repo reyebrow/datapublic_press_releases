@@ -31,7 +31,7 @@ msgid "Archive by Date"
 msgstr "Archives par Date"
 
 msgid "More Press Releases..."
-msgstr "Plus de Communiqués de Presse…"
+msgstr "Plus de Communiqués de Presse..."
 
 msgid "Edit Press Release"
 msgstr "Éditer ce Communiqué de Presse"
