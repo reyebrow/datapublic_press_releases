@@ -12,7 +12,7 @@ function datapublic_press_releases_views_default_views() {
 
   $view = new view;
   $view->name = 'press_releases';
-  $view->description = '';
+  $view->description = 'Default views for Press Release listings.';
   $view->tag = 'Press Releases';
   $view->base_table = 'node';
   $view->human_name = 'Press Releases';
