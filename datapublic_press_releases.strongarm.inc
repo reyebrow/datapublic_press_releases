@@ -112,12 +112,5 @@ function datapublic_press_releases_strongarm() {
   $strongarm->value = 'press-releases/[node:title]';
   $export['pathauto_node_press_release_pattern'] = $strongarm;
 
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_taxonomy_term_document_tags_pattern';
-  $strongarm->value = '';
-  $export['pathauto_taxonomy_term_document_tags_pattern'] = $strongarm;
-
   return $export;
 }

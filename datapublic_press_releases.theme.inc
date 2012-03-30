@@ -10,11 +10,11 @@
  * Implements of hook_theme().
  */
 function datapublic_press_releases_theme($existing, $type, $theme, $path) {
-  // Provide template for document content type:
-  $document = isset($existing['node']) ? $existing['node'] : array();
-  $document['path'] = $path . '/theme';
-  $document['template'] = 'node--press-release';
+  // Provide template for press_release content type:
+  $press_release = isset($existing['node']) ? $existing['node'] : array();
+  $press_release['path'] = $path . '/theme';
+  $press_release['template'] = 'node--press-release';
   return array(
-    'node__press_release' => $document,
+    'node__press_release' => $press_release,
   );
 } // datapublic_press_releases_theme()
